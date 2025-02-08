@@ -1,1 +1,1 @@
-# klipper-conf
+Klipper configs collection

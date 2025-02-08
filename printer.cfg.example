@@ -1,0 +1,25 @@
+[include mainsail.cfg]
+
+#motherbooard
+#[include motherboards/pins_cr113.cfg]
+#[include motherboards/pins_cr442.cfg]
+
+#uncomment for change connection
+#[mcu]
+#serial: /dev/ttyS3 #UART0
+
+#mechanics
+#[include mechanics/ender_neo.cfg]
+
+#displays
+#[include motherboards/display/12864/cr113.cfg]
+
+#additional
+#[include extensions/touch/crtouch.cfg]
+#[include extensions/filament_sensor/cr422.cfg]
+#[include display_cr113_C12864.cfg]
+#[include extensions/host_mcu.cfg]
+
+
+[bltouch]
+#z_offset = 2.220
